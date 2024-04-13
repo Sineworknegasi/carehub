@@ -1,0 +1,83 @@
+.A_section{
+    background: var(--bg-1);
+}
+.About-Box  {
+    min-height: 200px;
+    margin: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+.About-Box:hover {
+    background: var(--green);
+}
+.About-Box p {
+    font-size: 1.5rem;
+    font-family: var(--title-font);
+}
+
+.icon {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: var(--brown);
+    padding: 1rem;
+    color: white;
+    margin: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.left-A-section {
+    padding: 3rem 2rem 0 0;
+}
+.left-A-section p{
+    font-family: var(--text-font);
+    font-size: 1rem;
+    color: var(--dark-brown);
+}
+.left-A-section p:first-of-type {
+    color: var(--brown);
+    font-weight: 800;
+}
+.left-A-section h1 {
+    color: var(--dark-brown);
+    font-family: var(--title-font);
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+
+.right-About-section {
+    display: flex;
+    flex-direction: column;
+    background:var(--brown2);
+}
+.right-About-section label {
+    font-size: 0.8rem;
+    color: var(--brown);
+}
+.right-About-section h2 {
+    font-family: var(--title-font);
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+.right-About-section input[type="text"], input[type="email"], select {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0 1rem 0;
+    border: 1px solid var(--brown);
+    border-radius: 12px;
+    font-family: var(--text-font);
+    font-size: 1rem;
+    color: var(--dark-brown);
+    border:none;
+    outline: none;
+}
+
+
+

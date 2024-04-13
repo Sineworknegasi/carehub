@@ -1,0 +1,52 @@
+.Home-section {
+    background-image: url("https://preview.colorlib.com/theme/lovecare/images/bg_1.jpg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.Home_container {
+    justify-content: center;
+}
+.Home_container .p1 {
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.Home_container h1 {
+    font-size: 5rem;
+    font-family: var(--title-font);
+    color: white;
+    font-weight: 800;
+}
+.Join-Button {
+    background-color: var(--brown);
+    border: none;
+    color: white;
+    text-align: center;
+    width: max-content;
+    padding: 1rem 3rem;
+    border-radius: 25px;
+}
+.watch-video {
+    color: white;
+    width: max-content;
+    padding-top: 1rem;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 768px){
+    .Home_container h1{
+        font-size: 4rem;
+    }
+    .Join-Button{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 500px){
+    .Home_container h1{
+        font-size: 2.5rem;
+    }
+}
