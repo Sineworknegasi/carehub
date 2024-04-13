@@ -9,7 +9,7 @@ const About = () => {
     <section className="container-fluid text-white h-100 A_section">
       <div className="container">
         <div className="row">
-          <div className="col-md-8 left-A-section">
+          <div className="col-md-7 left-A-section">
             <p className="text-left">WELCOME TO CAREHUB CHARITY</p>
             <h1 className="text-left">
               We Help Thousands of Children to Get Their Education
@@ -25,7 +25,7 @@ const About = () => {
               with the necessary regelialia. It is a paradisematic country, in
               which roasted parts of sentences fly into your mouth.
             </p>
-            <div className="row">
+            <div className="row d-flex align-items-center">
               <div className="col-md-3  d-flex flex-column About-Box ">
                 <BiSolidDonateHeart className="icon" />
                 <p className="text-center">Start Donating</p>
@@ -40,7 +40,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 p-5 right-About-section">
+          <div className="col-md-5 p-5 right-About-section">
             <label>DONATE NOW</label>
             <h2>Giving is the greatest act of grace</h2>
             <label>Your full Name</label>
@@ -58,24 +58,21 @@ const About = () => {
             </select>
             <label>Amount to Give</label>
             <input type="text" placeholder="Amount" />
-            <div className="row">
-              <div className="col-sm-4">
-                {" "}
-                <label>Paypal</label>
-                <input type="checkbox" />
+            <div className=" form-group d-flex row my-2 mb-5">
+              <div className="Form-check d-flex col-md-3 align-items-center">
+                <input type="radio" className="form-check-input mx-1" name="flexRadioDefault" id="FlexRadioDefault1" />
+                <label className="form-check-label" for="flexRadioDefault1">Paypal</label>
               </div>
-              <div className="col-sm-4">
-                {" "}
-                <label>Paypal</label>
-                <input type="checkbox" />
+              <div className="Form-check d-flex col-md-4 align-items-center">
+                <input type="radio" className="form-check-input" name="flexRadioDefault" id="FlexRadioDefault2" />
+                <label className="form-check-label mx-1" for="flexRadioDefault2"> CreditCard </label>
               </div>
-              <div className="col-sm-4">
-                {" "}
-                <label>Paypal</label>
-                <input type="checkbox" />
+              <div className="Form-check d-flex col-md-3 align-items-center">
+                <input type="radio" className="form-check-input mx-1" name="flexRadioDefault" id="FlexRadioDefault2" />
+                <label className="form-check-label" for="flexRadioDefault2">Payoneer</label>
               </div>
             </div>
-            <button className="btn btn-primary">Donate Now</button>
+            <button className="btn btn-block button-brown p-3">Donate Now</button>
           </div>
         </div>
       </div>
