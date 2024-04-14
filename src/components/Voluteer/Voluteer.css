@@ -1,0 +1,77 @@
+.Voluteer_container {
+    background: var(--bg-1);
+}
+.Voluteer_container h1 {
+    font-family: "Patrick Hand", cursive;
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0 0 1rem 0;
+    color: black;
+}
+.Voluteer_container p{
+    font-family: var(--text-font);
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--brown);
+    margin: 0 0 1rem 0;
+}
+.voluteer-box {
+    margin-top: 4rem;
+    padding-top: 6rem;
+    position: relative;
+    background: white;
+    transition: 0.4s;
+}
+.voluteer-box:hover {
+    background-color: var(--green);
+}
+.voluteer-img img {
+    width: 65%;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid var(--bg-1);
+    object-fit: cover;
+    transform: translate(-50%, -100%);
+}
+.voluteer-info ul {
+    list-style: none;
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+    padding: 0;
+}
+.voluteer-info ul li a {
+    width: 100%;
+}
+.voluteer-info h1 {
+    font-family: "Patrick Hand", cursive;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin: 0 0 1rem 0;
+    color: black;
+}
+.voluteer-info p {
+    font-family: var(--text-font);
+    color: grey;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0 1rem 0;
+    padding: 2rem;
+    padding-bottom: 2rem;
+}
+.voluteer-info p:first-of-type {
+    font-family: var(--text-font);
+    color: var(--brown);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0 1rem 0;
+    padding: 0;
+}
+
+.social_icon {
+    font-size: 3rem;
+    color: white;
+    border-radius: 50%;
+    padding: 0.8rem;
+    background-color: var(--brown);
+}

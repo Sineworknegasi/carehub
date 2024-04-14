@@ -64,8 +64,8 @@ const About = () => {
                 <label className="form-check-label" for="flexRadioDefault1">Paypal</label>
               </div>
               <div className="Form-check d-flex col-md-4 align-items-center">
-                <input type="radio" className="form-check-input" name="flexRadioDefault" id="FlexRadioDefault2" />
-                <label className="form-check-label mx-1" for="flexRadioDefault2"> CreditCard </label>
+                <input type="radio" className="form-check-input mx-1" name="flexRadioDefault" id="FlexRadioDefault2" />
+                <label className="form-check-label" for="flexRadioDefault2"> CreditCard </label>
               </div>
               <div className="Form-check d-flex col-md-3 align-items-center">
                 <input type="radio" className="form-check-input mx-1" name="flexRadioDefault" id="FlexRadioDefault2" />

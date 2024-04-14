@@ -1,0 +1,18 @@
+.Qoute-section {
+    background: url("https://i.pinimg.com/originals/4d/a5/e6/4da5e63c36062c4e389ecade0e973478.jpg");
+    background-position: center;
+    background-image: cover;
+    background-size: cover;
+    background-repeat: repeat;
+}
+.Qoute-Container {
+    background: rgba(0, 0, 0, 0.4);
+}
+.Join-Button-brown {
+    background-color: var(--brown);
+    color: white;
+}
+.Join-Button-green {
+    background-color: var(--green);
+    color: white;
+}
