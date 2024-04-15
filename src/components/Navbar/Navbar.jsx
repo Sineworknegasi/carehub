@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { FaBars } from "react-icons/fa6";
+import { Outlet, Link } from "react-router-dom";
 
 
 
@@ -9,7 +10,7 @@ const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark">
       <div class="container">
-        <a class="navbar-brand Brand_Name" href="#">
+        <a class="navbar-brand Brand_Name" href="/">
           CARE<span>HUB</span>
         </a>
         <button
@@ -26,27 +27,27 @@ const Navbar = () => {
         <div class="navbar-collapse collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto align-items-center">
             <li class="nav-item">
-              <a class="nav-link mx-2 active" href="#!">
+              <a class="nav-link mx-2 active" href="/">
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2" href="#!">
+              <a class="nav-link mx-2" href="/About">
                 About
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2" href="#!">
+              <a class="nav-link mx-2" href="/Causes">
                 Causes
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2" href="#!">
+              <a class="nav-link mx-2" href="/Blog">
                 Blog
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2" href="#!">
+              <a class="nav-link mx-2" href="/Contact">
                 Contact
               </a>
             </li>

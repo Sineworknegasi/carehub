@@ -1,0 +1,26 @@
+.Footer_section {
+    background: var(--green2);
+    color: white;
+}
+.Footer_section h1 {
+    font-size: 2.5rem;
+}
+.Footer_section p:first-of-type {
+    font-family: var(--text-font);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 0 1rem 0;
+    padding: 0;
+}
+.footer_social a {
+    color: var(--brown);
+    position: relative;
+    z-index: 2;
+}
+.footer_social a:hover {
+    color: var(--dark-brown);
+}
+.footer_codyright {
+    background-color: var(--green-2);
+}
+

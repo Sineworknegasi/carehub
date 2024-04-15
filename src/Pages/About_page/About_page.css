@@ -1,0 +1,22 @@
+.About_page_section {
+    margin-top: 1rem;
+    background: url("https://preview.colorlib.com/theme/lovecare/images/bg_5.jpg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.About_page_section .About_page_section2 {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+.About_page_section a {
+    color: var(--brown);
+    font-weight: 800;
+    justify-content: center;
+}
+.About_page_section .title2 {
+    color: white;
+    font-size: 5rem;
+}

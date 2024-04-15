@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
   --green: #0a686e;
+  --green2: #042628;
   --brown: #D49A3A;
 
   --dark-brown: #39311D;
@@ -40,4 +41,26 @@
   font-size: 4rem;
   font-weight: 400;
   color: var(--brown2);
+}
+.btn-brown {
+  background-color: white;
+  border: 1px solid grey;
+  margin: 0.1rem;
+}
+.btn-brown:nth-last-of-type(6) {
+  background-color: var(--brown);
+  color: white;
+}
+.btn-brown:hover {
+  background-color: var(--brown);
+  color: white;
+}
+
+
+.bg-brown {
+  background-color: var(--bg-2);
+}
+
+body {
+  background: var(--bg-2);
 }

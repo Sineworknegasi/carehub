@@ -1,0 +1,17 @@
+.Blog_section {
+    background-color: var(--bg-1);
+}
+.Blog_bg {
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blog_stat .title {
+    font-size: 0.8rem;
+    color: var(--brown);
+}
+.blog_stat span span{
+    font-size: 1rem;
+}

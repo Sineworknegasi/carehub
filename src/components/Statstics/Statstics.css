@@ -1,5 +1,8 @@
 .stat-background {
     background:url("https://cdn.theatlantic.com/assets/media/img/2014/07/14/opener_v02-2/1920.jpg?1440086868");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     backdrop-filter: blur(10px);
 }
 .stat-background2 {
