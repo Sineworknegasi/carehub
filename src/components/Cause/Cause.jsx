@@ -64,10 +64,10 @@ const files = Causeinfo.map((item, index) => {
   return (
     <div className="col-md-11">
       <div className="Cause_card">
-        <img className="img-fluid" src={item.image} alt="Images" />
+        <img className="img-fluid img-responsive" src={item.image} alt="Images" />
         <div className="btn-education">Education</div>
-        <h5 className="text-center pt-4">{item.title}</h5>
-        <p className="text-left px-4">{item.description}</p>
+        <h5 className="text-center fs-1  pt-4">{item.title}</h5>
+        <p className="text-left px-4 fs-6 ">{item.description}</p>
         <div className="fund_rate d-flex flex-column">
           <div className="rate pt-3  text-center d-flex flex-column justify-content-center align-items-center">
             <div className="rate-inner my-3"></div>
@@ -91,8 +91,8 @@ const Cause = () => {
   return (
     <section className="cause-Section container-fluid py-4">
       <div className="container pt-5">
-        <h1 className="text-center title">OUR CAUSES</h1>
-        <p className="text-center title2">Our Causes & Help Us</p>
+        <h1 className="text-center title fs-3">OUR CAUSES</h1>
+        <p className="text-center title2 fs-1">Our Causes & Help Us</p>
         <div className="row pt-5 row-gap-3 mb-4">
           <Slide
           duration={2000}

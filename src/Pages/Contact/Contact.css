@@ -1,22 +1,30 @@
-.contact_form input {
+.contact_image {
+    background-image: url('https://wallpaperaccess.com/full/1478026.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid rgb(203, 203, 203);
-    border-radius: 5px;
+    border-radius: 10px;
     box-sizing: border-box;
     outline: none;
     font-family: var(--text-font);
 }
-.contact_form input:focus {
+input:focus {
     border: 1px solid var(--brown)
 }
-.contact_form textarea {
+textarea {
     width: 100%;
+    height: 300px;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid rgb(203, 203, 203);
-    border-radius: 5px;
+    border-radius: 10px;
     box-sizing: border-box;
     outline: none;
     font-family: var(--text-font);

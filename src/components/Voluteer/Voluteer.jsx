@@ -27,29 +27,26 @@ const VolunteerFiles = [
 
 const Volunteermap = VolunteerFiles.map((voluteer) => {
     return (
-        <div className="col-lg-3 col-md-4 col-sm-6 text-white">
-            <div className="voluteer-box d-flex flex-column justify-content-center align-items-center">
-              <div className="voluteer-img">
-                <img src={voluteer.image}/>
+        <div className="col-lg-3 col-md-6 col-sm-6 text-white col-12">
+            <div className="voluteer-box d-flex flex-column justify-content-center align-items-center py-5 rounded-bottom-4">
+              <div className="voluteer-img rounded-circle">
+                <img className="w-auto" src={voluteer.image}/>
               </div>
-              <div className="voluteer-info">
-                <h1 className="text-center">{voluteer.name}</h1>
-                <p className="text-center">Volunteer</p>
-                <ul className="row justify-content-center gap-1">
-                  <a href="" className=" col-2">
+              <div className="voluteer-info  d-flex flex-column align-items-center justify-content-center">
+                <h1 className="text-center title m-0 mt-5 fs-2">{voluteer.name}</h1>
+                <p className="text-center title fs-5 mt-2">Volunteer</p>
+                <ul className="row d-flex flex-row align-items-center justify-content-center gap-1">
+                  <a href="" className="col-3">
                     <FaTwitter className="social_icon" />
                   </a>
-                  <a href="" className="col-2">
+                  <a href="" className="col-3">
                     <FaFacebook className="social_icon" />
                   </a>
-                  <a href="" className="col-2">
+                  <a href="" className="col-3">
                     <FaTiktok className="social_icon" />
                   </a>
-                  <a href="" className="col-2">
-                    <FaInstagram className="social_icon" />
-                  </a>
                 </ul>
-                <p className="text-center">
+                <p className="text-center valunteer-comment">
                   {voluteer.discription}
                 </p>
               </div>
@@ -62,8 +59,8 @@ const Voluteer = () => {
   return (
     <section className="Voluteer_container py-5">
       <div className="container">
-        <p className="text-center py-1">MEET OUR VOLUNTEER</p>
-        <h1 className="text-center pb-5">Our Volunteer</h1>
+        <p className="text-center py-1 fs-5">MEET OUR VOLUNTEER</p>
+        <h1 className="text-center pb-5 fs-1">Our Volunteer</h1>
         <div className="row">
             {Volunteermap}
         </div>

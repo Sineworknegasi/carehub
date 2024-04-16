@@ -7,11 +7,11 @@ import "./About.css";
 const About = () => {
   return (
     <section className="container-fluid text-white h-100 A_section">
-      <div className="container">
+      <div className="container-xl ">
         <div className="row">
           <div className="col-md-7 left-A-section">
-            <p className="text-left">WELCOME TO CAREHUB CHARITY</p>
-            <h1 className="text-left">
+            <p className="text-left pb-1 pt-5">WELCOME TO CAREHUB CHARITY</p>
+            <h1 className="text-left fs-1">
               We Help Thousands of Children to Get Their Education
             </h1>
             <p className="text-left">
@@ -25,26 +25,26 @@ const About = () => {
               with the necessary regelialia. It is a paradisematic country, in
               which roasted parts of sentences fly into your mouth.
             </p>
-            <div className="row d-flex align-items-center">
-              <div className="col-md-3  d-flex flex-column About-Box ">
+            <div className="row d-flex align-items-center gap-2 gap-sm-1 gap-md-4 ">
+              <div className="col-sm-6 col-md-3 m-0  d-flex flex-column About-Box ">
                 <BiSolidDonateHeart className="icon" />
                 <p className="text-center">Start Donating</p>
               </div>
-              <div className="col-md-3  d-flex flex-column About-Box ">
+              <div className="col-sm-5 col-md-3 m-0 d-flex flex-column  About-Box ">
                 <RiCommunityFill className="icon" />
                 <p className="text-center">Join Our Community</p>
               </div>
-              <div className="col-md-3  d-flex flex-column About-Box ">
+              <div className=" col-sm-12 col-md-3 m-0  d-flex flex-column About-Box ">
                 <FaHandSparkles className="icon" />
                 <p className="text-center"> Be a Volunteer</p>
               </div>
             </div>
           </div>
-          <div className="col-md-5 p-5 right-About-section">
+          <div className="col-md-5 p-md-4 p-sm-4 p-3 right-About-section">
             <label>DONATE NOW</label>
-            <h2>Giving is the greatest act of grace</h2>
+            <h2 className=" fs-3">Giving is the greatest act of grace</h2>
             <label>Your full Name</label>
-            <input type="text" placeholder="Your Full Name" />
+            <input className=" input-group" type="text" placeholder="Your Full Name" />
             <label>Email Address</label>
             <input type="email" placeholder="Email" />
             <label>Select Causes</label>
@@ -60,7 +60,7 @@ const About = () => {
             <input type="text" placeholder="Amount" />
             <div className=" form-group d-flex row my-2 mb-5">
               <div className="Form-check d-flex col-md-3 align-items-center">
-                <input type="radio" className="form-check-input mx-1" name="flexRadioDefault" id="FlexRadioDefault1" />
+                <input type="radio" className="form-check-input mx-1 input" name="flexRadioDefault" id="FlexRadioDefault1" />
                 <label className="form-check-label" for="flexRadioDefault1">Paypal</label>
               </div>
               <div className="Form-check d-flex col-md-4 align-items-center">

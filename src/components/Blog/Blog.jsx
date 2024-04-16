@@ -43,9 +43,9 @@ const BlogInfo = [
             <span className="title">3comments</span>
           </span>
         </div>
-        <div className="pt-5 p-4 d-flex flex-column justify-content-center align-items-center blog_detail">
-          <h3 className="title2 h3 text-center py-2">{blog.title}</h3>
-          <p className="text-center fs-5">
+        <div className="pt-2 pt-sm-4 p-4 d-flex flex-column justify-content-center align-items-center blog_detail">
+          <h3 className="title2 h3 text-center py-2 fw-bold">{blog.title}</h3>
+          <p className="text-center fs-6 text-secondary">
             Separated they live in Bookmarksgrove right at the coast of the
             Semantics, a large language ocean
           </p>
@@ -62,9 +62,9 @@ const BlogInfo = [
 const Blog = () => {
   return (
     <section className="Blog_section py-5">
-      <div className=" container-xl p-5">
-        <p className="text-center title">OUR BLOG</p>
-        <h1 className="text-center title2 pb-5">Recent From Blog</h1>
+      <div className=" container-xl p-0 p-sm-5">
+        <p className="text-center title fs-3">OUR BLOG</p>
+        <h1 className="text-center title2 pb-0 pb-md-5 fs-1">Recent From Blog</h1>
         <div className="row pt-5 d-flex align-items-center justify-content-center">
           {BlogInfo}
         </div>

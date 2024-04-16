@@ -8,13 +8,6 @@
     margin: 0 0 1rem 0;
     color: black;
 }
-.Voluteer_container p{
-    font-family: var(--text-font);
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: var(--brown);
-    margin: 0 0 1rem 0;
-}
 .voluteer-box {
     margin-top: 4rem;
     padding-top: 6rem;
@@ -22,9 +15,14 @@
     background: white;
     transition: 0.4s;
 }
-.voluteer-box:hover {
-    background-color: var(--green);
+.valunteer-comment {
+    color: gray;
 }
+.voluteer-box:hover{
+    background-color: var(--green);
+    color: black;
+}
+
 .voluteer-img img {
     width: 65%;
     height: 200px;
@@ -32,7 +30,7 @@
     border-radius: 50%;
     border: 5px solid var(--bg-1);
     object-fit: cover;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -90%);
 }
 .voluteer-info ul {
     list-style: none;
@@ -50,28 +48,27 @@
     margin: 0 0 1rem 0;
     color: black;
 }
-.voluteer-info p {
-    font-family: var(--text-font);
-    color: grey;
-    font-size: 1rem;
-    font-weight: 500;
-    margin: 0 0 1rem 0;
-    padding: 2rem;
-    padding-bottom: 2rem;
-}
-.voluteer-info p:first-of-type {
-    font-family: var(--text-font);
-    color: var(--brown);
-    font-size: 1rem;
-    font-weight: 500;
-    margin: 0 0 1rem 0;
-    padding: 0;
-}
 
 .social_icon {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
     border-radius: 50%;
-    padding: 0.8rem;
+    padding: 0.5rem;
     background-color: var(--brown);
+    cursor: pointer;
+}
+.social_icon:hover {
+    background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .voluteer-img img {
+        width: 65%;
+        height: 200px;
+        position: absolute;
+        border-radius: 50%;
+        border: 5px solid var(--bg-1);
+        object-fit: cover;
+        transform: translate(-50%, -80%);
+    }
 }
