@@ -11,7 +11,7 @@ const About = () => {
         <div className="row">
           <div className="col-md-7 left-A-section">
             <p className="text-left pb-1 pt-5">WELCOME TO CAREHUB CHARITY</p>
-            <h1 className="text-left fs-1">
+            <h1 className="text-left fs-2">
               We Help Thousands of Children to Get Their Education
             </h1>
             <p className="text-left">
